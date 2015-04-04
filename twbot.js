@@ -35,34 +35,6 @@ casper.then(function() {
         quality: 75
     });
 });
-/*
-casper.evaluate(function() {
-
-    document.querySelector('Index.submit_login('server_br65')).click();
-},);
-
-
-//return Index.submit_login('server_br65');
-
-casper.then(function() {
-    // Clica no mundo
-    this.click('span.world_button_active');
-});
-
-/*
-casper.thenEvaluate(function(term) {
-    document.querySelector('input[name="password"]').setAttribute('value', term);
-    
-}, '4OgP+Y~*5R~a<&xk');
-
-
-/*
-
-<a href="#" onclick="return Index.submit_login('server_br65');">
-				<span class="world_button_active">Mundo 65</span>
-			</a>
-
-*/
 
 casper.then(function() {
     console.log('Actual location is ' + this.getCurrentUrl());
