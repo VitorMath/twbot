@@ -6,11 +6,11 @@ casper.start('http://tribalwars.com.br', function() {
 
 casper.thenEvaluate(function(term) { //Coloca o Login
     document.querySelector('input[name="user"]').setAttribute('value', term);
-}, 'Lord Karthon');
+}, 'Lord Balrog');
 
 casper.thenEvaluate(function(term) { //Coloca a senha
     document.querySelector('input[name="password"]').setAttribute('value', term);
-}, '4OgP+Y~*5R~a<&xk');
+}, 'hiZgINGRsj83');
 
 casper.then(function() {
 	//Clica no Botao de Login
